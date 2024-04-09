@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    display: flex;
+    /* border: 2px solid red; */
+    gap: 60px;
+    padding: 15px;
+    box-shadow: 0 0 1px white;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: oblique;
+    color: rgb(5, 102, 186);
+    margin-left: 30px;
+    
+}
+
+.navbar{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar a:hover{
+    color: gold;
+    
+}
+
+.navbar li a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+}
+.course{
+  position: absolute;
+  right: 70px;
+  align-self: center;
+  list-style: none;
+  background-color: rgb(160, 179, 14);
+  padding: 8px;
+  box-shadow: 0 0 0 2px  rgb(195, 91, 12);
+  border-radius: 10px;
+  
+}
+
+
+.course a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    height: 40vh;
+    /* border: 2px solid red; */
+
+}
+
+.timer{
+    border: 10px solid rgb(16, 214, 16);
+    border-radius: 50%;
+    padding: 35px;
+    font-size: 2rem;
+
+}
+
+.record{
+    padding: 25px;
+    box-shadow: 0 0 0 0.4px  white;
+    width: 12%;
+    border-radius: 20px;
+
+}
+
+p,h2{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+p{
+    font-size: 1.3rem;
+}
+h2{
+    font-size: 1.7rem;
+}
+
+
+.visible{
+    display: none;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    gap: 70px;
+}
+
+.read{
+    background-color: rgb(27, 27, 27);
+    padding: 15px;
+    width: 50%;
+    border-radius: 15px;
+}
+.readtext{
+    text-align: start;
+    overflow: hidden;
+}
+
+
+ input{
+    padding: 25px;
+    width: 35%;
+    background-color: rgb(27, 27, 27);
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    font-size: 2rem;
+    color: white;
+} 
+
+input:hover{
+    box-shadow: 0 0 0 2px  rgb(31, 126, 174);
+}
+
+
+.runtimecolor{
+    color: green;
+}
+
+.newgame{
+    position: absolute;
+    left: 43%;
+    padding: 20px 70px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: chocolate;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
